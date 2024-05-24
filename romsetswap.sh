@@ -263,7 +263,7 @@ tput reset
 Custom SLIDESHOW: $(cat /opt/retropie/configs/all/emulationstation/es_settings.cfg | grep SlideshowScreenSaverCustomMediaSource  | rev | cut -c 5- | rev | cut -c 59-)
 romSWAPcurrent=$(
 echo "=======================================================================
-Current R0M Set: $(cat ~/RetroPie/roms/romset.cfg | grep romSETinfo= | cut -c 13- | rev | cut -c 2- | rev)
+Current R0M Set: $(cat ~/RetroPie/roms/romset.cfg 2> /dev/null | grep romSETinfo= | cut -c 13- | rev | cut -c 2- | rev)
 Current Theme: $(cat /opt/retropie/configs/all/emulationstation/es_settings.cfg | grep ThemeSet | rev | cut -c 5- | rev | cut -c 32-)
 Current ScreenSaver: $(cat /opt/retropie/configs/all/emulationstation/es_settings.cfg | grep ScreenSaverBehavior  | rev | cut -c 5- | rev | cut -c 43-)
 Custom Media Source: $(cat /opt/retropie/configs/all/emulationstation/es_settings.cfg | grep SlideshowScreenSaverCustomMediaSource  | rev | cut -c 5- | rev | cut -c 59-)
