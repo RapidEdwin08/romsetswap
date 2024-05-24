@@ -246,6 +246,12 @@ if [[ ! -d ~/RetroPie/roms_b ]]; then
 		cp ~/RetroPie/roms/ports/Freedoom*.sh ~/RetroPie/roms_b/ports/ > /dev/null 2>&1
 		cp ~/RetroPie/roms/ports/Kodi.sh ~/RetroPie/roms_b/ports/ > /dev/null 2>&1
 		cp ~/RetroPie/roms/ports/Desktop.sh ~/RetroPie/roms_b/ports/ > /dev/null 2>&1
+		chmod 755 ~/RetroPie/roms/kodi/*.sh > /dev/null 2>&1
+		chmod 755 ~/RetroPie/roms/desktop/*.sh > /dev/null 2>&1
+		chmod 755 ~/RetroPie/roms/amiga/*.sh  > /dev/null 2>&1
+		chmod 755 ~/RetroPie/roms/dreamcast/*.sh > /dev/null 2>&1
+		chmod 755 ~/RetroPie/roms/scummvm/*.sh > /dev/null 2>&1
+		chmod 755 ~/RetroPie/roms/ps2/*.sh > /dev/null 2>&1
 	fi
 fi
 }
