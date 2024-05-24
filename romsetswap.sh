@@ -223,6 +223,7 @@ if [[ ! -d ~/RetroPie/roms_b ]]; then
 	cp ~/RetroPie/roms/scummvm/'+Start ScummVM.sh' ~/RetroPie/roms_b/scummvm/ > /dev/null 2>&1
 	cp ~/RetroPie/roms/ps2/'+Start AetherSX2.sh' ~/RetroPie/roms_b/ps2/ > /dev/null 2>&1
 	cp ~/RetroPie/roms/pc/+Start* ~/RetroPie/roms_b/pc/ > /dev/null 2>&1
+	cp ~/RetroPie/roms/gc/+Start* ~/RetroPie/roms_b/gc/ > /dev/null 2>&1
 	cp -R ~/RetroPie/roms/kodi/* ~/RetroPie/roms_b/kodi/ > /dev/null 2>&1
 	cp -R ~/RetroPie/roms/desktop/* ~/RetroPie/roms_b/desktop/ > /dev/null 2>&1
 	if [[ -d ~/RetroPie/roms/music ]] && [[ -d ~/RetroPie/roms_b/music ]]; then cp -R ~/RetroPie/roms/music/* ~/RetroPie/roms_b/music; fi
