@@ -31,7 +31,7 @@ wget https://raw.githubusercontent.com/RapidEdwin08/romsetswap/main/romsetswap.p
 	<game>
 		<path>./romsetswap.sh</path>
 		<name>[Rom Set Swap]</name>
-		<desc>Swap Rom Sets for [RetroPie]</desc>
+		<desc>Swap Rom Sets for [RetroPie] *USE AT YOUR OWN RISK*</desc>
 		<image>./icons/romsetswap.png</image>
 	</game>
 ```
