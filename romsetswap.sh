@@ -253,6 +253,12 @@ if [[ ! -d ~/RetroPie/roms_b ]]; then
 		chmod 755 ~/RetroPie/roms/scummvm/*.sh > /dev/null 2>&1
 		chmod 755 ~/RetroPie/roms/ps2/*.sh > /dev/null 2>&1
 	fi
+	if [[ -d ~/RetroPie/roms/wine ]]; then
+		mkdir ~/RetroPie/roms_b/wine/.games > /dev/null 2>&1
+		cp -R ~/RetroPie/roms/wine/'+WINE HQ' ~/RetroPie/roms_b/wine > /dev/null 2>&1
+		cp -R ~/RetroPie/roms/wine/.games/mugen-1.1b1 ~/RetroPie/roms_b/wine/.games > /dev/null 2>&1
+		cp ~/RetroPie/roms/wine/'Mugen (v1.1b1).sh' ~/RetroPie/roms_b/wine
+	fi
 fi
 }
 
